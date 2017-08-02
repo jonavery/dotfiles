@@ -2,6 +2,8 @@
 syntax on
 " Set colors to use 256 color palette
 set t_Co=256
+" Set colorscheme
+colorscheme industry
 
 filetype plugin indent on
 " Show existing tab with 4 spaces width
