@@ -49,6 +49,9 @@ alias lz='ll -rS'                   # sort by size
 alias lt='ll -rt'                   # sort by date
 alias lm='la | more'
 
+## cd
+alias camz='cd /opt/lampp/htdocs/AmazonMWS'
+
 ## Safety features
 # alias cp='cp -i'
 # alias mv='mv -i'
