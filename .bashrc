@@ -49,6 +49,12 @@ alias lz='ll -rS'                   # sort by size
 alias lt='ll -rt'                   # sort by date
 alias lm='la | more'
 
+## git
+alias pull='git pull'
+alias push='git push'
+alias commit='git commit -m'        # requires commit message
+alias add='git add'
+
 ## cd
 alias camz='cd /opt/lampp/htdocs/AmazonMWS'
 
