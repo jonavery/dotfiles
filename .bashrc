@@ -19,6 +19,8 @@ alias ping='ping -c 5'
 alias dmesg='dmesg -HL'
 
 ## New commands
+alias scpamz='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/'
+alias ssk='ssh -i /opt/lampp/htdocs/klasrun-ver001.pem ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com'
 alias pb='curl -F c=@- https://ptpb.pw'
 alias ptpb='curl -F c=@- https://ptpb.pw'
 alias da='date "+%A, %B %d, %Y [%T]"'
