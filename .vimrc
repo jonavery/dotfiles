@@ -21,5 +21,8 @@ set hlsearch
 " Highlight search terms as they are typed
 set incsearch
 
+" Override error messages when using :argdo
+set hidden
+
 " Add command to override write permissions
 cnoremap w!! w !sudo tee % >/dev/null
