@@ -19,7 +19,7 @@ alias ping='ping -c 5'
 alias dmesg='dmesg -HL'
 
 ## New commands
-alias scpamz='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/'
+alias scpamz='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/amazon ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS/'
 alias scpmws='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebService ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
 alias scppro='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebServiceProducts ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
 alias scpfba='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/FBAInboundServiceMWS ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
