@@ -19,11 +19,19 @@ alias ping='ping -c 5'
 alias dmesg='dmesg -HL'
 
 ## New commands
-alias scpamz='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/amazon ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS/'
-alias scpmws='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebService ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
-alias scppro='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebServiceProducts ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
-alias scpfba='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/FBAInboundServiceMWS ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
-alias ssk='ssh -i /opt/lampp/htdocs/klasrun-ver001.pem ec2-user@ec2-13-56-149-67.us-west-1.compute.amazonaws.com'
+alias paytoken='curl -v https://api.sandbox.paypal.com/v1/oauth2/token \
+-H "Accept: application/json" \
+-H "Accept-Language: en_US" \
+-u "AZADVw9rZ471Tq9A_vsCU8C2wxRH92naBS_a26L0HG_pVod-S_MV0XAliZ3kNhLwe7Pgv29vWsPs_UEI:EJWbpXmJnQDHB4ZD8nLqN5Fj4BXTGwMr_bVlRZGnukMAm6b2z5c9qhEXTbyfdwnnD_OVWXrqjHnCr4r9" \
+-d "grant_type=client_credentials"'
+alias scpliq='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/Liquidation/ ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/Liquidation'
+alias scppay='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/PayPal-API/ ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/PayPal-API'
+alias scpamz='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/ ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS/'
+alias scpmws='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebService ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
+alias scppro='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/MarketplaceWebServiceProducts ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
+alias scpfba='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/AmazonMWS/FBAInboundServiceMWS ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/AmazonMWS'
+alias scpbook='scp -r -i /opt/lampp/htdocs/klasrun-ver001.pem /opt/lampp/htdocs/BooksMWS/FBAInboundServiceMWS ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com:/var/www/html/BooksMWS'
+alias ssk='ssh -i /opt/lampp/htdocs/klasrun-ver001.pem ec2-user@ec2-13-57-188-159.us-west-1.compute.amazonaws.com'
 alias pb='curl -F c=@- https://ptpb.pw'
 alias ptpb='curl -F c=@- https://ptpb.pw'
 alias da='date "+%A, %B %d, %Y [%T]"'
